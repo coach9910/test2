@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="test2:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/test2_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="test2/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="test2" />
+        </element>
+        <element id="dir-copy" path="$USER_HOME$/Desktop/pic/apache-tomcat-7.0.94-windows-x64/apache-tomcat-7.0.94/webapps" />
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="tomcat-jdbc" />
+        </element>
+      </element>
+      <element id="dir-copy" path="$USER_HOME$/Desktop/pic/apache-tomcat-7.0.94-windows-x64/apache-tomcat-7.0.94/webapps" />
+    </root>
+  </artifact>
+</component>
